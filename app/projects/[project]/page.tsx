@@ -16,7 +16,7 @@ export default async function Project({ params }: Props) {
           {project.name}
         </h1>
         <a
-          className=" bg-gray-100 rounded-lg text-grey-500 font-bold py-4 px-1 whitespace-nowrap hover:bg-green-400 "
+          className=" bg-gray-100 rounded-lg text-black font-bold py-4 px-1 whitespace-nowrap hover:bg-green-400 "
           href={project.url}
           title="View Project"
           target="_blank"
@@ -25,7 +25,7 @@ export default async function Project({ params }: Props) {
           Check the project
         </a>
       </header>
-      <div className="max-w-3xl text-center mt-12 text-xl mx-auto ">
+      <div className="max-w-3xl text-center mt-12 text-xl mx-auto text-black ">
         <PortableText value={project.content} />
       </div>
       <Image

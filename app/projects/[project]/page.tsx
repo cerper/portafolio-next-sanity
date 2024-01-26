@@ -25,7 +25,7 @@ export default async function Project({ params }: Props) {
           Check the project
         </a>
       </header>
-      <div className="max-w-3xl text-center mt-12 text-xl mx-auto text-black ">
+      <div className="max-w-3xl text-center mt-12 text-xl mx-auto ">
         <PortableText value={project.content} />
       </div>
       <Image
